@@ -60,6 +60,7 @@ const createMetadata = (main, document) => {
       WebImporter.DOMUtils.remove(main, [
         'header',
         'footer',
+        'iframe',
         '.contact_us_floater',
         '.modal .fade'
       ]);
