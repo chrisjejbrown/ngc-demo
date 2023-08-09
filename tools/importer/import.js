@@ -60,6 +60,8 @@ const createMetadata = (main, document) => {
       WebImporter.DOMUtils.remove(main, [
         'header',
         'footer',
+        '.contact_us_floater',
+        '.modal .fade'
       ]);
   
       // create the metadata block and append it to the main element
