@@ -241,32 +241,3 @@ main .section {
 main .section.highlight {
   background-color: var(--highlight-background-color);
 }
-
-
-/* Dentrix CSS */
-/* fonts */
---heading-font-family: proxima-nova;
---body-font-family: proxima-nova;
---fixed-font-family: "Roboto Mono", menlo, consolas, "Liberation Mono", monospace;
-
-/* colors */
---text-color: #000000de;
---link-color: #039be5;
---link-hover-color: #039be5;
---background-color: #ffffff;
---overlay-background-color: #eeeeee;
---highlight-background-color: #cccccc;
-
-/* sizes */
---heading-font-size-xxl: 63px;
---heading-font-size-xl: 35px;
---heading-font-size-l: 43.8px;
---heading-font-size-m: 34.2px;
---heading-font-size-s: 24.6px;
---heading-font-size-xs: 17.25px;
---body-font-size-xxl: 20px;
---body-font-size-xl: 18px;
---body-font-size-l: 16px;
---body-font-size-m: 15px;
---body-font-size-s: 13.008px;
---body-font-size-xs: 12px;
