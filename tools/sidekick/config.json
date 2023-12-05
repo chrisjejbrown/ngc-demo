@@ -9,6 +9,20 @@
       "includePaths": [ "**.docx**" ]
     },
     {
+      "project": "Franklin",
+      "plugins": [
+        {
+          "id": "generate-variations",
+          "title": "Generate Variations",
+          "url": "https://experience.adobe.com/aem/generate-variations",
+          "passConfig": true,
+          "environments": ["edit"],
+          "includePaths": ["**.docx**"]
+        }
+      ]
+    }
+    ,
+    {
       "id": "assets",
       "title": "Assets",
       "environments": [ "edit" ],
