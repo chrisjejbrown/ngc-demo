@@ -4,24 +4,36 @@
     {
       "id": "library",
       "title": "Library",
-      "environments": [ "edit" ],
+      "environments": [
+        "edit"
+      ],
       "url": "https://main--franklin--chrisjejbrown.hlx.live/tools/sidekick/library.html",
-      "includePaths": [ "**.docx**" ]
+      "includePaths": [
+        "**.docx**"
+      ]
+    },
+    {
+      "id": "assets",
+      "title": "Assets",
+      "environments": [
+        "edit"
+      ],
+      "url": "https://wknd.findmy.media/",
+      "includePaths": [
+        "**.docx**"
+      ]
     },
     {
       "id": "generate-variations",
       "title": "Generate Variations",
       "url": "https://experience.adobe.com/aem/generate-variations",
       "passConfig": true,
-      "environments": ["edit"],
-      "includePaths": ["**.docx**"]
-    },
-    {
-      "id": "assets",
-      "title": "Assets",
-      "environments": [ "edit" ],
-      "url": "https://wknd.findmy.media/",
-      "includePaths": [ "**.docx**" ]
+      "environments": [
+        "edit"
+      ],
+      "includePaths": [
+        "**.docx**"
+      ]
     }
   ]
 }
